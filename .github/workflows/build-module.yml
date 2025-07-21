@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "r22040"
+          - tag: "r22040-eeba2a67ca"
             pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: mt7622
